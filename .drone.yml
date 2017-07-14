@@ -1,0 +1,11 @@
+pipeline:
+  # This section builds the application binary.
+  build:
+    commands:
+      - "mvn -version"
+      - "mvn package"
+    environment:
+      - GRADLE_USER_HOME=~/.gradle
+    image: "maven"
+    when:
+      branch: [ test, master ]
