@@ -1,5 +1,5 @@
 
-Below are the instructions for build
+Below are the instructions for building docker
 
 In the shell go to the location where the java project  is been present
 cd /Users/bapatil/Documents/workspace-sts-3.8.4.RELEASE/drone

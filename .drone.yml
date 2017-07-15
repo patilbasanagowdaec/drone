@@ -1,6 +1,8 @@
 pipeline:
   build:
      image: maven
+     username: patilbasanagowdaec
+     password: ksitpatil@1
      commands:
       - mvn package
      environment:
